@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="de">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Für dich ❤️</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;600&display=swap" rel="stylesheet">
+</head>
+
+<body>
+
+    <!-- Page 1: The Question -->
+    <section id="page-1" class="page active">
+        <div class="content-wrapper">
+            <h1 class="fade-in">Möchtest du ein Valentinstags Geschenk? 🎁</h1>
+            <div class="buttons fade-in-delay">
+                <button id="btn-ja" class="btn primary">Ja 💖</button>
+                <button id="btn-nein" class="btn secondary">Nein 😌</button>
+            </div>
+            <p id="nein-reaction" class="hidden"></p>
+        </div>
+    </section>
+
+    <!-- Page 2: The Celebration -->
+    <section id="page-2" class="page hidden">
+        <div class="content-wrapper">
+            <h1 class="scale-in">Nun ja… du kannst dir deins bei der besten Heizung der Welt abholen! 🔥</h1>
+
+            <div class="gif-container fade-in-delay">
+                <img src="peach-goma-surprise-hug.gif" alt="Surprise Hug" class="gif-image">
+            </div>
+
+            <!-- Hidden Audio Player -->
+            <audio id="music-player" loop>
+                <source src="Harry Styles - Adore You (Official Video).mp3" type="audio/mpeg">
+                Your browser does not support the audio element.
+            </audio>
+
+            <p class="final-message fade-in-delay-3">Alles Gute zum Valentinstag, mein Mäuschen ❤️</p>
+        </div>
+    </section>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
